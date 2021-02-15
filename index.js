@@ -62,7 +62,6 @@ const result = lodash.omit(a, 'age');
 // Task 4
 // Выполнить задачу 3 без библиотек, а только средствами JS ( Иммутабельно, не используя delete )
 const {age, ...newObject} = a;
-console.log(newObject);
 
    
 
